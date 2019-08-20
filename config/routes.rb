@@ -4,4 +4,6 @@ Spree::Core::Engine.routes.draw do
       resources :sale_prices
     end
   end
+
+  get "/ofertas" => "home#onsale"
 end
